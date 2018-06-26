@@ -7,4 +7,4 @@ def prime?(number)
   end
 end
 
-prime?(9)
+puts prime?(6)
