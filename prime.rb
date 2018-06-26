@@ -6,7 +6,7 @@ def prime?(number)
     return false
   elsif number == 1
     return false
-  else number.odd? && number %3 !== 0
+  else number.odd? && number %3 != 0
   end
 end
 
