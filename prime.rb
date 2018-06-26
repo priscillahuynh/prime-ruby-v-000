@@ -4,7 +4,9 @@ def prime?(number)
     return true
   elsif number.even?
     return false
+  elsif number == 1
+    return false
   end
 end
 
-puts prime?(2)
+puts prime?(3)
