@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if (number.even? && number == 2) && number > 1
+  if (number.even? && number == 2) && number > -1
     return true
   elsif number.even?
     return false
