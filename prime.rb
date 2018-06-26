@@ -1,4 +1,5 @@
 # Add  code here!
-def prime?(array)
-
+def prime?(number)
+  if number % 2 == 0
+    
 end
