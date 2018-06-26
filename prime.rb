@@ -4,7 +4,7 @@ def prime?(number)
     return true
   elsif number.even?
     return false
-  elsif number == 1 || number == -1
+  elsif number == 1 || number <0
     return false
   else
     info = (2..number-1).any? {|num| number % num == 0}
