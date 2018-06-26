@@ -6,7 +6,7 @@ def prime?(number)
     return false
   elsif number == 1
     return false
-    (1..number).each do |odd|
+    (1..number).each do |num|
   end
 end
 
