@@ -6,7 +6,8 @@ def prime?(number)
     return false
   elsif number == 1
     return false
-    (1..number).each do |num| number % num = 0
+    (1..number).each do |num| number % num == 0
+      
   end
 end
 
