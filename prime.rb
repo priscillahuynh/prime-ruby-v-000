@@ -7,7 +7,7 @@ def prime?(number)
   elsif number == 1
     return false
   else
-    (1..number).each {|num| number % num == 0}
+    (1..number).any? {|num| number % num == 0}
     return false
   end
 end
