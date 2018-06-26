@@ -5,5 +5,6 @@ def prime?(number)
   elsif number.even?
     return false
   end
-  puts prime?
 end
+
+prime?(9)
