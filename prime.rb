@@ -8,7 +8,7 @@ def prime?(number)
     return false
   else
     info = (2..number-1).any? {|num| number % num == 0}
-    return info
+    return !info
   end
 end
 
