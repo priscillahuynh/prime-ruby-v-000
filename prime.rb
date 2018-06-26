@@ -7,5 +7,3 @@ def prime?(number)
   end
   puts prime?
 end
-
-
